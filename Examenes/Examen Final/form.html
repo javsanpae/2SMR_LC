@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="description" content="Examen segundo HLC">
+    <meta name="author" content="Javier Sánchez Páez">
+    <meta name="keywords" content="Examen, HTML, CSS">
+</head>
+<body>
+
+    <section id="Formulario">
+    <img src="./img/image.png" alt="Segovia un buen plan">
+
+    <form action="form.php" method="post">
+        <fieldset id="formulario">
+
+            <legend>Datos consulta</legend>
+
+
+            <table>
+            <tr>
+                <td><label for="per">Persona de contacto:</label></td>
+                <td><input required="required" type="text" name="per" id="per"></td>
+            </tr>
+
+            <tr>
+                <td><label for="mx">Correo electrónico:</label></td>
+                <td><input required="required" type="text" name="mx" id="mx"></td>
+            </tr>
+
+            <tr>
+                <td><label for="pai">País de origen:</label></td>
+                <td>
+                    <select name="pai" id="pai">
+                    <optgroup label="América">América</optgroup>
+                    <option value="eeuu">Estados Unidos</option>
+                    <option value="mex">México</option>
+                    <option value="arg">Argentina</option>
+                    <optgroup label="Europa">Europa</optgroup>
+                    <option value="esp" selected="selected">España</option>
+                    <option value="fr">Francia</option>
+                    <option value="uk">Reino Unido</option>
+                    <optgroup label="Asia">Asia</optgroup>
+                    <option value="ch">China</option>
+                    <option value="jp">Japón</option>
+                    <option value="rs">Rusia</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="lug">Lugares que deseas visitar:</label></td>
+                    <td>
+                        <select name="lug" id="lug" multiple="multiple">
+                        <option value="ac">Acueducto</option>
+                        <option value="alc">El Alcázar</option>
+                        <option value="cat">Catedral de Segovia</option>
+                        <option value="pue">Puerta de San Andrés</option>
+                        <option value="pla">Plaza Medina del Campo</option>
+                        <option value="bar">Barrio Judío</option>
+                        <option value="cam">Casa Museo Antonio Machado</option>
+                        <option value="alh">La Alhóndiga</option>
+                        <option value="mir">Mirador de la Pradera de San Marcos</option>
+                        </select>
+                    </td>
+                
+            </tr>
+
+            <tr>
+                <td><label>Edad:</label></td>
+                    <td>
+                    <input type="radio" name="edad" id="men" value="men">
+                    <label for="men">Menor de edad</label>
+                    <input type="radio" checked name="edad" id="may" value="may">
+                    <label for="may">Entre 18 y 65</label>
+                    <input type="radio" name="edad" id="jub" value="jub">
+                    <label for="jub">Jubilado</label>
+                    </td>
+                
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="mot">Motivo de tu consulta</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <textarea name="mot" id="mot" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+
+
+
+            </table>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+
+        </fieldset>
+
+
+
+    </form>
+    </section>
+</body>
+</html>

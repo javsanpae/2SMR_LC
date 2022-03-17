@@ -1,0 +1,119 @@
+<!DOCTYPE html>  <!-- Documento escrito en HTML 6 -->
+
+<html>
+   <head>
+       <title>Ejercicio 6 CSS</title>
+	 	<link rel="stylesheet" href="./css/style.css">
+   </head>
+   
+   <body>
+		<div id="contenido">
+			<h1>Ejemplo de manejo de tablas</h1>
+			<div id="tabla1">
+				<table class="tabla1" summary="Tipos de cambio"> 
+        				<!-- summary = "texto" - Permite describir el contenido de la tabla 
+						           (lo utilizan los buscadores y las personas discapacitadas) -->
+				  <thead>
+					<tr class="cabecera">
+					    <!-- scope = "col, row, colgroup, rowgroup" - Indica las celdas para 
+						          las que esta celda ser� su cabecera. Ej: scope="col" indica que esta
+								  celda es la cabecera de todas las dem�s celdas que est�n en la misma columna -->
+					  <th scope="col">Cambio</th>
+					  <th scope="col">Compra</th>
+					  <th scope="col">Venta</th>
+					  <th scope="col">M&aacute;ximo</th>
+					  <th scope="col">M&iacute;nimo</th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr class="par">
+					  <th scope="row" class="euro">Euro/Dolar</th>
+					  <td>1.2524</td>
+					  <td>1.2527</td>
+					  <td>1.2539</td>
+					  <td>1.2488</td>
+					</tr>
+					<tr>
+					  <th scope="row" class="dolar">Dolar/Yen</th>
+					  <td>119.01</td>
+					  <td>119.05</td>
+					  <td>119.82</td>
+					  <td>119.82</td>
+					</tr>
+					<tr class="par">
+					  <th scope="row" class="libra">Libra/Dolar</th>
+					  <td>1.8606</td>
+					  <td>1.8611</td>
+					  <td>1.8651</td>
+					  <td>1.8522</td>
+					</tr>
+					<tr>
+					  <th scope="row" class="yen">Yen/Euro</th>
+					  <td>0.6711</td>
+					  <td>0.6705</td>
+					  <td>0.6676</td>
+					  <td>0.6713</td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+			
+			<br/><hr/><br/>
+			
+			<div>
+			  <table class="tabla2" summary="Horario de clase">
+				<tr>
+					<th></th>
+					<th>Lunes</th>
+					<th>Martes</th>
+					<th>Mi�rcoles</th>
+					<th>Jueves</th>
+					<th>Viernes</th>
+				</tr>
+				<tr>
+					<th>8:30-9:30</th>
+					<td rowspan="2">S.O. Red</td>
+					<td rowspan="2">Aplic. Web</td>
+					<td rowspan="2">S.O. Red</td>
+					<td class="nada" rowspan="2"></td>
+					<td class="nada" rowspan="2"></td>
+				</tr>
+				<tr>
+					<th>9:30-10:30</th>
+				</tr>
+				<tr>
+					<th>10:30-11:30</th>
+					<td>Aplic. Web</td>
+					<td class="nada"></td>
+					<td>Empresa</td>
+					<td>Servicios red</td>
+					<td>Servicios red</td>
+				</tr>
+				<tr>
+					<th>11:30-12:00</th>
+					<td colspan="5">Recreo</td>
+				</tr>
+				<tr>
+					<th>12:00-13:00</th>
+					<td>Aplic. Web</td>
+					<td rowspan="3">S.O. Red</td>
+					<td>Empresa</td>
+					<td rowspan="2">Servicios red</td>
+					<td>Servicios red</td>
+				</tr>
+				<tr>
+					<th>13:00-14:00</th>
+					<td  class="nada" rowspan="2"></td>
+					<td rowspan="2">Servicios red</td>
+					<td rowspan="2">Empresa</td>
+				</tr>
+				<tr>
+					<th>14:00-15:00</th>
+					<td class="nada"></td>
+				</tr>
+			  </table>
+			
+			</div>
+	    </div>
+	</body>
+</html>

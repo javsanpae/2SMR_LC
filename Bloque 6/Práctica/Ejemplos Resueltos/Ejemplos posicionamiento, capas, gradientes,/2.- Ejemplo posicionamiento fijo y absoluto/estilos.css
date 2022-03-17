@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Ejemplo de posicionamiento fijo, toma como referencia las coordenadas de la ventana */
+div {
+	position: fixed;
+	left: 50px;
+	top: 50px;
+	width: 600px;
+	height: 300px;
+	background-color: gray;
+}
+
+/* Ejemplo de posicionamiento fijo, toma como referencia las coordenadas de la ventana */
+/*
+p.miClase {
+	position: fixed;
+	background-color: yellow;
+	width: 75%;
+	left: 40px;
+}
+*/
+/* Ejemplo de posicionamiento fijo, toma como referencia las coordenadas del componente que lo contiene,
+   en este caso el div */
+p.miClase {
+	position: absolute;
+	background-color: yellow;
+	width: 75%;
+	left: 40px;
+}
+
+
+
+
+
+

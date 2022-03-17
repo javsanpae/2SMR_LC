@@ -1,0 +1,16 @@
+Index:
+
+- La barra superior debería tener un fondo de color base (el que se repite en 
+toda la página. Sospecho que he hecho la estructura mal.
+
+- Los desplegables en Descarga información debería salir uno debajo de otro.
+
+Form:
+
+- Los cuadros de texto de la consulta deberían cubrir toda la celda.
+
+- El "motivo de tu consulta" y su textarea deberían estar alineados a la derecha.
+
+
+El resto está tal cual lo dice el examen.
+

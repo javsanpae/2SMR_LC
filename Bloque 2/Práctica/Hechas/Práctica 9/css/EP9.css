@@ -1,0 +1,21 @@
+table, th, td 
+    {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    }
+
+tr, td 
+    {
+    text-align: center;
+    }
+
+table
+    {
+    width: 575px;
+    height: 575px;
+    }
+
+tr.color td{font-weight: bold;}
+
+ul.lista1 {font-weight: normal;
+text-align: left;}

@@ -1,0 +1,16 @@
+h1#titulo {
+    color: teal;
+}
+
+strong {
+    color: red;
+}
+
+span.destacado {
+    color: yellow;
+}
+
+h2#subtitulo {
+    color: blue;
+}
+

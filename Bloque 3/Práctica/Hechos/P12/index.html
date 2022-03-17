@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Práctica 12</title>
+</head>
+<body>
+    
+    <h2><em>Rellena el siguiente cuestionario para formar parte del club de</em></h2>
+    <h2><em>"Amigos de la informática"</em></h2>
+
+    <form action="programa.php" method="POST">
+        <fieldset id="field1">
+                <legend><em>Datos personales</em></legend>
+
+                <table>
+                    <tr>
+                        <td><label for="nom">Nombre:</label></td>
+                        <td><input id="nom" type="text" id="nom" name="nom" required="required"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="dom">Domicilio:</label></td>
+                        <td><input id="dom" type="text" id="dom" name="dom" placeholder="<calle, número y localidad>"></td>
+                    </tr>    
+                    
+                    <tr>
+                        <td><label for="pai">País de origen:</label></td>
+                        <td><select name="pai">
+                            <optgroup label="Europa">Europa</optgroup>
+                            <option value="España" selected="selected">España</option>
+                            <option value="Alemania">Alemania</option>
+                            <option value="Francia">Francia</option>
+                            <optgroup label="America">America</optgroup>
+                            <option value="EEUU">Estados Unidos</option>
+                            <option value="MX">México</option>
+                            <option value="Brasil">Brasil</option>
+                            <optgroup label="Asia">Asia</optgroup>
+                            <option value="JP">Japón</option>
+                            <option value="China">China</option>
+                            <option value="India">India</option>
+                        </select>
+                    </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="fec">Fecha de nacimiento:</label></td>
+                        <td><input type="date" name="fec" id="fec"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="mx">Correo electrónico</label></td>
+                        <td><input id="mx" type="email" id="mx" name="mx" required="required"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="tel">Teléfono</label></td>
+                        <td><input id="tel" type="tel" id="tel" name="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{3}"></td>
+                    </tr>
+                       
+                    <tr>
+                        <td>
+                            <label for="civ">Estado Civil:</label>
+                        </td>
+
+                        <td>
+                            <input type="radio" id="sol" name="civ" value="sol">
+                            <label for="Sol">Solter@</label>
+                            <input type="radio" id="cas" name="civ" value="cas">
+                            <label for="Cas">Casad@</label>
+                            <input type="radio" id="sep" name="civ" value="sep">
+                            <label for="Sep">Separad@</label>
+                            <input type="radio" id="viu" name="civ" value="viu">
+                            <label for="Viu">Viud@</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="sex">Sexo:</label>
+                        </td>
+
+                    <td>
+                        <input type="radio" id="hom" name="sex" value="hom">
+                        <label for="hom">Hombre</label>
+                        <input type="radio" id="muj" name="sex" value="muj">
+                        <label for="muj">Mujer</label>
+
+                    </td>
+                    </tr>
+                </table>
+        </fieldset>
+
+        <br/>
+    
+        <fieldset id="field2">
+            <legend><em>Otra información de interés</em></legend>
+
+            <label for="com">Selecciona los componentes electrónicos con los que habitualmente trabajas:</label>
+            <select name="com" multiple="multiple">
+                <option value="mv">Móvil</option>
+                <option value="tb">Tablet</option>
+                <option value="pc">Ordenador</option>
+                <option value="eb">Ebook</option>
+                <option value="pda">PDA</option>
+            </select>
+
+            <br/>
+            <br/>
+
+            <table>
+                <tr>
+                <td><label for="act">Selecciona tus actividades favoritas:</label></td>
+                </tr>
+
+                <tr>
+                <td><input type="checkbox" id="act1" name="act1" value="depo">
+                <label for="act1">Hacer deporte</label></td>
+                <td><input type="checkbox" id="act2" name="act2" value="amgs">
+                <label for="act2">Salir con amigos</label></td>
+                <td><input type="checkbox" id="act3" name="act3" value="seri">
+                <label for="act3">Ver series, pelis,...</label></td>
+                </tr>
+                <tr>
+                <td><input type="checkbox" id="act4" name="act4" value="send">
+                <label for="act4">Realizar rutas de senderismo</label></td>
+                <td><input type="checkbox" id="act5" name="act5" value="cine">
+                <label for="act5">Ir al cine</label></td>
+                <td><input type="checkbox" id="act6" name="act6" value="mus">
+                <label for="act6">Escuchar música</label></td>
+                </tr>
+            </table>
+            <br/>
+            <br/>
+
+            <label for="come">Explique brevemente el motivo por el que desea ingresar en nuestro club:</label><br/>
+            <textarea id="come" name="come" rows="4" cols="60"></textarea>
+            <br/>
+
+            <br/>
+            <label for="pel">Elige o escribe tu peli favorita:</label>
+
+                <datalist id="pel">
+                <select name="pel">
+                <option>El corredor del laberinto</option>
+                <option>El viaje de chihiro</option>
+                <option>Piratas del caribe: La venganza de Salazar</option>
+                <option>Capitan America: El primer vengador</option>
+                </select>
+                </datalist>
+                <input id="pel" name="pel" list="pel"/>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </p>
+    </form>
+</body>
+</html>

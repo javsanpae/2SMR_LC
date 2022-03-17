@@ -1,0 +1,26 @@
+div p {color: blue;}
+
+div strong {color: red;}
+
+div>strong {color: orange;}
+
+div>p>em {color: fuchsia;}
+
+div>*>em {color: green;}
+
+div * {margin-left: 20px;}
+
+p[class] {margin-left: 1cm;}
+
+p[class=clase1] {margin-left: 3cm;}
+
+img[alt~="cara"] {border:  5px solid blue;}
+
+p [class$="2"] {margin-right: 4cm;}
+
+h1~p {border: dotted green;}
+
+h1+p {border: dotted blue;}
+
+ul li+li{background-color: green;}
+

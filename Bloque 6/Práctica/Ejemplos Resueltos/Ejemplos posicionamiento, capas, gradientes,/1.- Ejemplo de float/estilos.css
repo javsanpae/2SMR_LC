@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {font-size:20px;}
+
+/* Establecer un margen, borde y relleno para la imagen. Además la imagen se pondrá flotante a la izquierda, de esta
+   forma el texto fluirá alrededor de la misma. */
+img {	
+	float: left;
+	margin-right: 10px; 
+	margin-top: 25px;
+	border: dotted;
+	padding: 20px;
+}
+
+
+/* Con la propiedad clear podemos modificar el comportamiento por defecto de la propiedad float. Lo que hace es forzar
+   a cualquier elemento a mostrarse debajo de cualquier caja flotante. En este caso se le ha indicado left, lo cual
+   indica que el elemento se desplaza de forma descendente hasta que pueda colocarse en una línea en la no haya ninguna
+   caja flotante en el lado izquierdo */
+/*
+p.parrafo2 {
+	clear: left;
+}  
+*/
+
+
+
+
+

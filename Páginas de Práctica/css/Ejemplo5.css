@@ -1,0 +1,56 @@
+/* Estilos del Ejemplo 5 */
+
+* {color: grey;} 
+
+.azul {color: #3997e4}
+
+p#imagenFondo {
+    background-image: url(../Recursos/fondo2.jpg)
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 50%;
+    background-color: rgb(40, 231, 88);
+    font-family: "Bookman Old Style",Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 30px;
+}
+
+p.azul {
+    font: italic small-caps bold 12px/30px Georgia, serif;
+    letter-spacing: 5px;
+}
+
+@font-face{
+    font-family:artistica;
+        src: url('../Recursos/fuentes/Artistica.otf'), url('../Recursos/fuentes/Artistica.ttf');
+}
+
+p.p1 {
+    font-family: artistica;
+    font-size: 30px;
+}
+
+/* Cambiar el tamaño de fuente de todos los párrafos dentro del div */
+
+div p {
+    font-size: 18px;
+}
+
+
+/* Cambiar alineaciones */
+
+p.p2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+p.p3 {text-align: right;}
+p.p4 {text-align: left;}
+p.p5{text-align: justify;}
+
+h1 {
+    text-align: center;
+    text-decoration: overline;
+}

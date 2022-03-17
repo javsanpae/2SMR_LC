@@ -1,0 +1,7 @@
+ol ol {
+    list-style-type: lower-roman;
+}
+
+ol.lista1 {
+    list-style-position: inside;
+}

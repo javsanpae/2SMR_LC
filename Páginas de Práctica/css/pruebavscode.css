@@ -1,0 +1,11 @@
+/* Estilos del ejemplo con Visual Studio Code */
+
+/* Todas las etiquetas que tengan un class o valor azul */
+
+.azul {
+    color:blue;
+}
+
+p.azul {
+    color:blueviolet;
+}

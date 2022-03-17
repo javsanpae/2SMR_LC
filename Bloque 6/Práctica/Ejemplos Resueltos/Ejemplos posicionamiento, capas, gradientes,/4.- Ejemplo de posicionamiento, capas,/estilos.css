@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+#capa1{ 
+  position:fixed; 
+  left:50px; 
+  top:50px; 
+  width:400px; 
+  height:300px; 
+  background-color:cyan; 
+  z-index:1; 
+  overflow: hidden;
+} 
+
+#capa2{ 
+   position:fixed; 
+   left:100px; 
+   top:100px; 
+   width:400px; 
+   height:300px; 
+   background-color:yellow; 
+   z-index:2; 
+   overflow: scroll;
+} 
+
+#capa3{ 
+   position:fixed; 
+   left:150px; 
+   top:150px; 
+   width:400px; 
+   height:300px; 
+   background-color:orange; 
+   z-index:3;
+/*   visibility: hidden;  */
+   clip:rect(20px,170px,70px,50px);
+}
+
+div {
+	background-color: pink;
+	position: fixed;
+	top: 450px;
+}
+
+div p {
+	display: inline;
+	border: double;
+}
+
+p#capa4 {
+	position: absolute;
+	top: 500px; 
+}
+
+#marco{ 
+   background-color:lightgray; 
+   border:2px solid black; 
+   display:inline-block; 
+   width:50%; 
+} 
+
+
+
+
+
+
+
+
+

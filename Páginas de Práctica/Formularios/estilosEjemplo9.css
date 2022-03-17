@@ -1,0 +1,25 @@
+fieldset {
+    width: 50%;
+    background-color: #b9f095;
+    margin: 0 auto;
+}
+
+input {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+option {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+select {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, p {
+    text-align: center;
+}
+
+legend{
+    
+}

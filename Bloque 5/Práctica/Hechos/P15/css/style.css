@@ -1,0 +1,132 @@
+div#contenido {
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    background-color: #CECEF6;
+    padding: 10px;
+    border-radius: 20px 40px 10px 40px;
+}
+
+table {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    border: 1px solid #333;
+}
+
+th, td {
+    border: 1px solid #333;
+    line-height: 2em;
+}
+
+th {
+    background-color: #F5F5F5;
+    background-image: url("../imagenes/fondo_gris.gif");
+    background-repeat: repeat-x;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    text-align: left;
+}
+
+th.euro {
+    background-color: #E6F3FF;
+    background-image: url("../imagenes/euro.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    padding-right: 0.3em;
+    padding-left: 1.2em;
+}
+
+th.dolar {
+    background-color: #E6F3FF;
+    background-image: url("../imagenes/dolar.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    padding-right: 0.3em;
+    padding-left: 1.2em;
+}
+
+th.libra {
+    background-color: #E6F3FF;
+    background-image: url("../imagenes/libra.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    padding-right: 0.3em;
+    padding-left: 1.2em;
+}
+
+th.yen {
+    background-color: #E6F3FF;
+    background-image: url("../imagenes/yen.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    padding-right: 0.3em;
+    padding-left: 1.2em;
+}
+
+*.par {
+    background-color: #FFFFCC;
+}
+
+div#tabla1 tr:hover {
+    background-color: #FFFF66 !important;
+} 
+
+td, th {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+table.tabla2 tr:first-child {
+    font-weight: bold;
+    background-color: #e6f3ff;
+}
+
+table.tabla2 td:hover {
+    background-color: #FFFF66;
+}
+
+
+table.tabla2 td.nada {
+    background-color: lightgrey !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

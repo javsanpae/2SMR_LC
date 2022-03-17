@@ -1,0 +1,69 @@
+form fieldset table tr td input#nom {width: 150%;}
+
+form fieldset table tr td input#dom {width: 150%;}
+
+form fieldset table tr td input#mx {width: 50%;}
+
+form fieldset table tr td input#tel {width: 30%;}
+
+
+h2 {
+    text-align: center;
+    color: #a77c10;
+    text-shadow: #8d600c 1px 1px 2px;
+}
+
+p {
+    text-align: center;
+    
+}
+
+p input {color: white;
+    background-color:#665029;
+    color:#ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 6px 110px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+p input:hover {
+    background-color: #ffffff;
+    color: #665029;
+}
+
+
+legend {
+    text-align: right;
+    padding-top: 25px;
+}
+
+label {
+    font-weight: bold;
+    text-align: right;
+}
+
+fieldset {
+    margin: 0 auto;
+    width: 700px;
+}
+
+fieldset#field1 {
+    background-color:#c49216;
+    border-radius: 40px 0 20px 0;
+    border-style: none;
+    box-shadow: #ca991d 12px 5px 5px;
+}
+
+fieldset#field2 {
+    background-color:#f5c449;
+    border-radius: 20px 0px 20px 0px ;
+    border-style: none;
+    box-shadow: #e4b43c 12px 5px 5px;
+}
+
+textarea#come {
+    width: 75%;
+    height: 40px;
+}

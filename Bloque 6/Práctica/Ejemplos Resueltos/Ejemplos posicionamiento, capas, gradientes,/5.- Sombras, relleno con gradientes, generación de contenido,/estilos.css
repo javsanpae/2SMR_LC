@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+div {
+	display: table;
+	padding: 40px;
+}
+div div {
+	display: table-row;
+}
+div div div {
+	display: table-cell;
+}
+div#c1 {
+	background-color: lightgray;
+	margin: 30px;
+	padding: 40px;
+	box-shadow: gray 10px 10px 5px;
+	/*transform: -moz-skewY(90);*/
+}
+div#c2 {
+	background-color: yellow;
+	margin: 30px;
+	padding: 40px;
+	box-shadow: gray 10px 10px 5px;
+	opacity:0.5;
+}
+div#c3 {
+	/*background-color: orange;*/
+	margin: 30px;
+	padding: 40px;
+	box-shadow: gray 10px 10px 5px;
+	background: -moz-linear-gradient(145deg, orange,yellow);
+}
+/*
+#c2 {
+	font-style: italic;
+}
+
+#c2:before {
+	content: '"';
+}
+#c2:after {
+	content: '"';
+}
+*/
+
+body{ 
+	counter-reset:cont 7; 
+	counter-reset:cont2 -2; 
+} 
+
+
+div div div:before{
+  content: "Capítulo " counter(cont) ") "; 	  	   
+  counter-increment: cont 3; 
+}
+  
+td:before {
+	content: counter(cont2); 	  	   
+    counter-increment: cont2 2;
+}
+
+table{ 
+   width:150px; 
+   height:150px; } 
+
+table:hover{ 
+   width:300px; 
+   height:300px;
+   -moz-transition: 2s; 
+}
+  

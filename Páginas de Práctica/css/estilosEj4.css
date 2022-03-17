@@ -1,0 +1,42 @@
+/* Estilos del ejemplo 4 (versión 2) sobre enlaces */
+
+/* Cambiar el tipo de fuente y tamaño de todos los párrafos */
+
+p {
+	font-family: "Comic Sans MS";
+	font-size: 30px	
+}
+
+/* Cambiar el tipo de fuente, tamaño, fondo, alineación y color de todos los párrafos con atributo class="parrafo1" */
+p.parrafo1 {
+	font-family: "Arial";
+	font-weight: 30px;
+	background-color: darkblue;
+	text-align: justify;
+	color: #F6C3A2;
+}
+
+/* Cambiar el tipo de color de todos los párrafos con atributo id="parrafo2" */ 
+p#parrafo2 {
+	color: darkred;
+}
+
+div {
+	background-color: lightgrey;
+	border-style: solid;
+	border-width: 10px;
+	border-color: yellow;
+	padding: 30px;
+	margin: 60px;
+}
+
+/* Cambiar la fuente a todo */
+
+* {
+	font-family: "Verdana"
+}
+
+span {
+	background-color: lightgreen;
+	color: white;
+}

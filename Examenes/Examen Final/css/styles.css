@@ -1,0 +1,208 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Ej 7 */
+
+body {
+    text-align: center;
+    color: #022b58;
+}
+
+/* Ej 8 */
+
+img.panoramica {
+    width: 80%;
+    display: block;
+}
+
+/* Ej 9 */
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2em;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.3em;
+}
+
+/* Ej 10 */
+
+nav {
+    padding-top: 10px;
+    font-family: sans-serif;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+}
+
+li {
+    list-style: none;
+}
+
+li > ul a {
+    background-color: #022b58;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+} 
+
+li > ul a:hover {
+    color: #022b58;
+    background-color: lightgray;
+}
+
+ul.barra li {
+    width: 25%;
+    float: left;
+    text-align: left;
+}
+
+.barra>li>ul {
+    display: none;
+}
+
+.barra>li:hover>ul {
+    display: block;
+}
+
+/* Ej 11 */
+
+section#Presentacion {
+    width: 80%;
+}
+
+section#Presentacion p {
+    line-height: 25px;
+    font-size: 1.3em;
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Ej 12 */
+
+section#Galeria {
+    width: 760px;
+    height: 400px;
+}
+
+section#Galeria img {
+    float: left;
+    width: 220px;
+    height: 150px;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: #022b58 5px 5px;
+}
+
+/* Ej 13 */
+
+section#Rutas {
+    width: 80%;
+    margin-top: 20px;
+}
+
+section#Rutas p {
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    border: solid #022b58 10px 10px 10px 10px;
+    text-align: center;
+    box-shadow: grey 3px 3px 3px 3px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+section#Rutas p::first-line {
+    font-weight: bold;
+}
+
+/* Ej 14 */
+
+footer p {
+    background-color: #022b58;
+    color: #FFFFFF;
+    font-style: italic;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    overflow-y: auto;
+    bottom: 0px;
+    left: 10%;
+    right: 10%;
+}
+
+/* Ej 15 */
+
+section#Formulario {
+    width: 75%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+section#Formulario fieldset {
+    border-radius: 10px 10px 10px 10px;
+    float: right;
+}
+
+section#Formulario form * {
+    color: #3e493f;
+}
+
+section#Formulario img {
+    float: left;
+}
+
+section#Formulario tr td:first-child {
+    text-align: right;
+}
+
+section#Formulario td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td[colspan="2"] * {
+    text-align: left;
+}
+
+input[type="submit"], input[type="reset"] {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 25%;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px 5px 5px 5px;
+    color: #3e493f;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #3e493f;
+    /* No cambia el color de la fuente */
+    color: white;
+}
+

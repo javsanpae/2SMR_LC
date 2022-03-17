@@ -1,0 +1,85 @@
+header h1 {
+    font-family: "Comic Sans MS"; /*cambiar tipo de letra*/
+    font-weight: bold; /*Poner texto en negrita*/
+    color: #08088A;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: #A4A4A4 4px 4px 4px; /*sombreado de texto, posición en x, posición en y, difuminado*/
+    font-variant: small-caps;
+}
+
+div {margin: 60px;}
+
+hr {width: 90%;}
+
+ul.menu{
+    width: 180px;
+    list-style-type: none;
+    margin: 0 auto;
+    border-width: 1px;
+    border-color: #7C7C7C;
+    border-style: solid;
+    padding: 0;
+}
+
+ul.menu li {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #7C7C7C;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #FFF;
+    background-color: #F4F4F4;
+}
+
+ul.menu li a {
+    background-image: url(../imagenes/flecha_inactiva.png);
+    background-repeat: no-repeat;
+    padding: .2em 0 .2em 1.5em;
+    display:block;
+    text-decoration: none;
+    color: #333;
+    background-color: #F4F4F4;
+    background-position: 3px; 
+    }
+
+ul.menu li a:hover {
+    background-image: url(../imagenes/flecha_activa.png);
+    background-repeat: no-repeat;
+    background-color: #E4E4E4;
+    }
+
+div.contenido2 {
+    text-align:center
+}
+      
+div ul.menuHori 
+    {
+    width: 80%;
+    margin: 0 auto
+    }
+      
+div ul.menuHori li 
+    {
+    display:inline ;
+    border-style: inset;
+    border-width: 7px;
+    border-color:lightgray;
+    padding: 15px 30px; 
+    background-color: #f4f4f4;
+    margin:10px
+    }
+      
+div ul.menuHori li:hover 
+    {
+    background-color: #e4e4e4 ;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+      
+div ul.menuHori li a 
+    {
+    text-decoration: none;
+      color:#333
+    }

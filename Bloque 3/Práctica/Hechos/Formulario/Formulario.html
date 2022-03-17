@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Javier Sánchez</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <h1>Encuesta de satisfacción para los clientes</h1>
+
+
+
+
+    <a target="_blank" href="https://www.google.es"><img src="./img/logo.png" alt="SSR"></a>
+
+    <br>
+
+    <fieldset class="field1">
+
+        <legend>Datos del pedido</legend>
+
+        <form action="form.php" method="POST">
+
+        <table>
+            <tr>
+                <td><label for="nom">Nombre:</label></td>
+                <td><input type="text" name="nom" id="nom" required="required"></td>
+                <td>&nbsp</td>
+                <td><label for="ap">Apellidos:</label></td>
+                <td colspan="2"><input type="text" name="ap" id="ap"></td>
+            </tr>
+            <tr>
+                <td><label for="num">Número de pedido</label></td>
+                <td><input type="number" name="num" id="num" required="required"></td>
+                <td>&nbsp</td>
+                <td><p>Mayor de edad:</p></td>
+                <td>
+                    <input type="radio" name="eda" id="may">
+                    <label for="may">Sí</label>
+                </td>
+                <td>
+                    <input type="radio" name="eda" id="men">
+                    <label for="men">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fec">Fecha de pedido:</label></td>
+                <td><input type="date" name="fec" id="fec"></td>
+                <td>&nbsp</td>
+                <td><label for="tip">Tipo de servicio:</label></td>
+                <td colspan="2">
+                    <select name="tip">
+                    <option value="none"></option>
+                    <option value="Reparacion">Reparación</option>
+                    <option value="Compra">Compra</option>
+                    <option value="Tecnico">Servicio técnico</option>
+                    <option value="Ayuda">Ayuda al cliente</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="tel">Teléfono</label></td>
+                <td colspan="5" id="telefono"><input size="70%" type="tel" name="tel" id="tel"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <br>
+
+
+    <fieldset class="field2">
+
+        <legend>Encuesta</legend>
+
+        <table>
+            <tr>
+                <td><label for="gus">¿Qué es lo que más te ha gustado?</label></td>
+            </tr>
+            <tr>
+                <td><textarea placeholder="Trato, precios, garantía..." name="gus" id="gus" cols="30" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="disgus">¿Qué es lo que menos te ha gustado?</label></td>
+            </tr>
+            <tr>
+                <td><textarea placeholder="Trato, precios, garantía..." name="disgus" id="disgus" cols="30" rows="2"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="gen">En general, ¿cómo ha sido tu experiencia?</label></td>
+            </tr>
+            <tr>
+                <td>
+                    <datalist id="gen">
+                    <select name="gen" required="required">
+                    <option>Muy buena</option>
+                    <option>Buena</option>
+                    <option>Regular</option>
+                    <option>Mal</option>
+                    <option>Muy mal</option>
+                    </select>
+                    </datalist>
+                    <input id="gen" name="gen" list="gen"/> 
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <br>
+
+    <div>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Cancelar">
+    </div>
+
+            </form>
+</body>
+</html>

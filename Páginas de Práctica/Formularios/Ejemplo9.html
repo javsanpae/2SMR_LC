@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="estilosEjemplo9.css">
+</head>
+<body>
+
+    <h1>Ejemplo de Formularios</h1>
+<fieldset>
+    <legend>Formulario</legend>
+    <form action="programa.php" method="GET">
+
+        <label for="nom">Nombre:</label>
+        <input type="text" id="nom" name="nom">
+
+        <label for="pswd">Contraseña:</label>
+        <input type="password" id="pswd" name="pswd">
+
+        <br>
+        <br>
+        <label for="gender">Sexo:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+
+        <br>
+        <label for="fecnac">Fecha de Nacimiento:</label>
+        <br>
+        <input type="date" name="fecnac" if="fecnac">
+
+
+        <br><br>
+        <select name="provincia">
+            <optgroup label="Cantabria">
+            <option value="s">Santander</option>
+            </optgroup>
+            <optgroup label="Castilla y León">
+            <option value="av">Ávila</option>
+            <option value="bu">Burgos</option>
+            <option value="l">León</option>
+            <option value="p">Palencia</option>
+            <option value="sg">Segovia</option>
+            <option value="so">Soria</option>
+            <option value="sa">Salamanza</option>
+            <option value="va">Valladolid</option>
+            <option value="za">Zamora</option>
+            </optgroup>
+            </select>
+
+            <br><br>
+            <label for="musicgear">Elige una marca</label>
+            <select name="musicgear" id="musicgear">
+              <option value="gibson">Gibson</option>
+              <option value="fender">Fender</option>
+              <option value="prs">PRS</option>
+              <option value="music man">Music Man</option>
+            </select> 
+
+            <br><br>
+            <label for="cars">Choose a car:</label>
+            <select  name="cars" id="cars">
+              <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+              </optgroup>
+              <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </optgroup>
+            </select> 
+
+
+
+
+
+
+        
+
+    </fieldset>
+
+
+
+
+
+
+    <!-- Botones enviar y limpiar -->
+    <br><br>
+
+    <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+    </p>
+
+    </form>
+
+</body>
+</html>
