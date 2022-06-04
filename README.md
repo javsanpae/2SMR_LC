@@ -1,2 +1,3 @@
 # 2SMR_LC
-Here I'm uploading the content of the "Libre Configuración" module, which was a "free" module where a teacher could explain whatever they wanted or use it as a reinforcement. In our case we learnt HTML5 and CSS3.
+
+Content learnt on the "Libre Configuración" module on 2SMR. This module essentially consisted of a couple of free hours every week where, in our case, our Web Applications teacher taught us HTML5 and CSS3 as a preparation for higher level education.
